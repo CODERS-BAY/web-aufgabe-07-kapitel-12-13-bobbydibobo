@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #region Navbar */
+
+nav{
+    background-color: black;
+    padding: 2rem 0rem 0rem 0rem;
+    
+}
+
+nav h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+nav ul li{
+    display: inline;
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    color: white;
+}
+
+nav ul li:first-of-type{
+    padding-right: 3rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 2rem 1rem 2rem 1rem;
+    letter-spacing: .2rem;
+}
+
+nav ul li a:hover{
+    background-color: rgb(126, 126, 126);
+    transition-delay: .1s;
+    transition-duration: .5s;
+}
+
+.headerpic{
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.headerpic img{
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+nav .verticalbar {
+    position: relative;
+    left: 17rem;
+    bottom: 2.5rem;
+    border: 1px solid white;
+    width: 1px;
+    padding: 1rem 0rem 1rem 0rem;
+    background-color: white;
+}
+
+/* #endregion */
+
+
+/* #region Animations */
+
+article .bikinibottom {
+    height: 500px;
+    width: 760px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 2rem auto;
+    background-image: url(/img/bikinibottom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+article h1{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+    background-color: white;
+    color:black;
+}
+
+article p{
+    font-size: 1.5rem;
+    font-family:'Montserrat', sans-serif ;
+    text-align: center;
+    padding-top: .8rem;
+    background-color:black ;
+    color: white;
+}
+
+article h1:hover{
+    background-color: black;
+    color:white;
+    transition: ease-in .4s;
+}
+
+article .bikinibottom .spongebob img{
+    position: relative;
+    top: 22rem;
+    left: 40rem;
+}
+
+article .bikinibottom .spongebob img:hover{
+    transform: translateX(-55rem);
+    transition: linear 4s;
+}
+
+article .bikinibottom .tadeus img{
+    position: relative;
+    bottom: 6rem;
+    left: 30rem;
+}
+
+article .bikinibottom .tadeus img:hover{
+    transform: scale(5, 1.5) translateY(-20rem);
+    transition: linear 5s;
+}
+
+body{
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
